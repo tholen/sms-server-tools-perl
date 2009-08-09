@@ -1,0 +1,14 @@
+.*~
+*~
+blib*
+Makefile
+Makefile.old
+Makefile.PL
+Build
+_build*
+blib
+pm_to_blib*
+*.tar.gz
+.lwpcookies
+SMS-Server-Tools-*
+cover_db

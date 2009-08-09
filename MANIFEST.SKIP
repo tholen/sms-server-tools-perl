@@ -1,0 +1,6 @@
+blib
+^Makefile$
+^Makefile.PL$
+^Makefile.old$
+.gitignore
+.git
