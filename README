@@ -2,10 +2,10 @@ NAME
     SMS::Server::Tools - parse SMS Server Tools files
 
 VERSION
-    Version 0.01
+    Version 0.011
 
 SYNOPSIS
-    Read file with SMS text message received from SMS Server Tools.
+    Read file with SMS text message received by SMS Server Tools.
 
         use SMS::Server::Tools;
 
@@ -42,18 +42,18 @@ SMS File Format Getter
         $sms->Alphabet;
         $sms->UDH;
 
-    For the complete defintion of the SMS file format used by SMS Server
-    Tools see <http://smstools.meinemullemaus.de/fileformat.html>
+    For the complete SMS file format used by SMS Server Tools see
+    <http://smstools.meinemullemaus.de/fileformat.html>
 
 METHODS
   new
-    Create the sms object.
+    Create an new sms object.
 
   SMSFile
     Set path to sms file.
 
   parse
-    The parse method start the sms file.
+    The parse method read the sms file.
 
   write
     The write method write the sms file.
@@ -82,16 +82,20 @@ SUPPORT
 
     You can also look for information at:
 
-    * RT: CPAN's request tracker
+    *   RT: CPAN's request tracker
+
         <http://rt.cpan.org/NoAuth/Bugs.html?Dist=SMS-Server-Tools>
 
-    * AnnoCPAN: Annotated CPAN documentation
+    *   AnnoCPAN: Annotated CPAN documentation
+
         <http://annocpan.org/dist/SMS-Server-Tools>
 
-    * CPAN Ratings
+    *   CPAN Ratings
+
         <http://cpanratings.perl.org/d/SMS-Server-Tools>
 
-    * Search CPAN
+    *   Search CPAN
+
         <http://search.cpan.org/dist/SMS-Server-Tools/>
 
 ACKNOWLEDGEMENTS

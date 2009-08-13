@@ -1,5 +1,8 @@
 Revision history for SMS-Server-Tools
 
+0.011   2009-08-13
+        Improve for cpan/cpanreports only.
+
 0.01    2009-08-09
         Initial checkin version.
 

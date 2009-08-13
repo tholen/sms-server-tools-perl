@@ -1,20 +1,29 @@
 ---
 name: SMS-Server-Tools
-version: 0.01
+version: 0.011
 author:
   - 'Thomas Lenz <tholen@cpan.org>'
 abstract: parse SMS Server Tools files
 license: perl
 resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=SMS-Server-Tools
   license: http://dev.perl.org/licenses/
+  repository: http://github.com/tholen/sms-server-tools-perl
 build_requires:
   Class::Accessor: 0.31
+  Log::Log4perl: 1
   Test::More: 0
+requires:
+  Class::Accessor: 0.31
+  Log::Log4perl: 1
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.340201
 provides:
   SMS::Server::Tools:
     file: lib/SMS/Server/Tools.pm
-    version: 0.01
-generated_by: Module::Build version 0.31012
+    version: 0.011
+generated_by: Module::Build version 0.340201
 meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
