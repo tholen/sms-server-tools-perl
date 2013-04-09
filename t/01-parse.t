@@ -53,6 +53,6 @@ my $udh_expected = 'false';
 is($udh, $udh_expected, 'parse UDH');
 
 my $text = $sms->Text;
-my $text_expected = 'This is my test sms text.';
+my $text_expected = "This is my test sms text\non two lines.";
 is($text, $text_expected, 'parse Text');
 

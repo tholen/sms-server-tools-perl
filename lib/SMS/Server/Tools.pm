@@ -15,7 +15,7 @@ Version 0.011
 
 =cut
 
-our $VERSION = '0.011';
+our $VERSION = '0.012';
 
 =head1 SYNOPSIS
 
@@ -98,13 +98,15 @@ sub parse {
 
     chomp @sms; # remove last linefeed
 
-    $self->{'Text'} = pop @sms; # sms-text from last line
+    # We find the index of the first void line, before the text
+    my $idx = (grep { $sms[$_] =~ /^$/ } 0..$#sms)[0];
+
+    # We collect the multiple lines into text
+    $self->{'Text'} = join("\n", @sms[$idx+1..$#sms]);
     
     DEBUG "parsed Text: $self->{'Text'}";
 
-    pop @sms; # remove blank line
-
-    foreach (@sms) {
+    foreach (@sms[0..$idx-1]) {
 		            
         # get sms header fields
         my ($key, $value) = split/: /;
