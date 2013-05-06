@@ -2,7 +2,7 @@ NAME
     SMS::Server::Tools - parse SMS Server Tools files
 
 VERSION
-    Version 0.011
+    Version 0.012
 
 SYNOPSIS
     Read file with SMS text message received by SMS Server Tools.
