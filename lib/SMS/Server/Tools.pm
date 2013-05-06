@@ -11,7 +11,7 @@ SMS::Server::Tools - parse SMS Server Tools files
 
 =head1 VERSION
 
-Version 0.011
+Version 0.012
 
 =cut
 
