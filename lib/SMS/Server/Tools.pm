@@ -11,11 +11,11 @@ SMS::Server::Tools - parse SMS Server Tools files
 
 =head1 VERSION
 
-Version 0.012
+Version 0.02
 
 =cut
 
-our $VERSION = '0.012';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -37,7 +37,7 @@ Read file with SMS text message received by SMS Server Tools.
 
 SMS::Server::Tools provides an object-oriented interface to access sms files used by the SMS Server Tools. 
 
-The C<SMS Server Tools> send and receive short messages through GSM modems or mobile phones L<http://smstools.meinemullemaus.de/>.
+The C<SMS Server Tools> send and receive short messages through GSM modems or mobile phones L<http://smstools3.kekekasvi.com>.
 
 =head1 SMS File Format Getter
 
@@ -55,7 +55,7 @@ SMS::Server::Tool parse the sms file and give the access to the following sms fi
     $sms->Alphabet;
     $sms->UDH;
 
-For the complete SMS file format used by SMS Server Tools see L<http://smstools.meinemullemaus.de/fileformat.html>
+For the complete SMS file format used by SMS Server Tools see L<http://smstools3.kekekasvi.com/index.php?p=fileformat>
 
 =cut
 
@@ -170,8 +170,6 @@ automatically be notified of progress on your bug as I make changes.
 =head1 SEE ALSO
 
 For more Information about SMS Server Tools follow this links.
-
-L<http://smstools.meinemullemaus.de/>
 
 L<http://smstools3.kekekasvi.com/>
 

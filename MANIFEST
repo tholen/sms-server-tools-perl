@@ -12,3 +12,4 @@ t/boilerplate.t
 t/GSM1.yZurO4
 t/pod-coverage.t
 t/pod.t
+META.json

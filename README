@@ -2,7 +2,7 @@ NAME
     SMS::Server::Tools - parse SMS Server Tools files
 
 VERSION
-    Version 0.012
+    Version 0.02
 
 SYNOPSIS
     Read file with SMS text message received by SMS Server Tools.
@@ -24,7 +24,7 @@ DESCRIPTION
     files used by the SMS Server Tools.
 
     The "SMS Server Tools" send and receive short messages through GSM
-    modems or mobile phones <http://smstools.meinemullemaus.de/>.
+    modems or mobile phones <http://smstools3.kekekasvi.com>.
 
 SMS File Format Getter
     SMS::Server::Tool parse the sms file and give the access to the
@@ -43,7 +43,7 @@ SMS File Format Getter
         $sms->UDH;
 
     For the complete SMS file format used by SMS Server Tools see
-    <http://smstools.meinemullemaus.de/fileformat.html>
+    <http://smstools3.kekekasvi.com/index.php?p=fileformat>
 
 METHODS
   new
@@ -70,8 +70,6 @@ BUGS
 
 SEE ALSO
     For more Information about SMS Server Tools follow this links.
-
-    <http://smstools.meinemullemaus.de/>
 
     <http://smstools3.kekekasvi.com/>
 
